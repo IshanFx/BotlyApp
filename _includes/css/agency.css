@@ -234,7 +234,21 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
+@media only screen and (max-width:400px){
+    .img-phone{
+        width: 150px !important;
+    }
+}
+
 @media(min-width:768px) {
+    
+    .img-phone{
+        width: 150px !important;
+        width: 300px;
+        margin-top: 90px;
+        position: absolute;
+    }
+
     .navbar-default {
         padding: 10px 0;
         border: 0;
@@ -302,9 +316,7 @@ header .intro-text .intro-heading {
 }
 
 .img-phone{
-    position: absolute;
-    width: 300px;
-    margin-top: 90px;
+   
 }
 
 .img-playstore{
@@ -314,6 +326,8 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+
+    
     header .intro-text {
         padding-top: 300px;
        
