@@ -234,7 +234,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:500px){
     .img-phone{
         width: 100px !important;
     }
