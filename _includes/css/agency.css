@@ -243,7 +243,7 @@ fieldset[disabled] .btn-xl.active {
 @media(min-width:768px) {
     
     .img-phone{
-        width: 150px !important;
+        width: 300px !important;
         margin-top: 90px;
         position: absolute;
     }
