@@ -236,7 +236,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media only screen and (max-width:600px){
     .img-phone{
-        width: 100px !important;
+        width: 150px !important;
     }
 }
 
